@@ -1,0 +1,9 @@
+# Compiled binaries
+freecell
+*.o
+*.out
+*.exe
+
+# Build directories
+build/
+bin/
