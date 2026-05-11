@@ -46,10 +46,10 @@ The first version was written as a learning exercise in C pointers and linked li
 ### v2.0 — Fixed Version
 Bugs fixed and improvements made with the help of Claude Code:
 
-- ✅ **Unicode suit symbols:** added `naipeStr()` function returning proper UTF-8 strings (♥ ♦ ♣ ♠) instead of raw `char` values
-- ✅ **Windows UTF-8 support:** added `#ifdef _WIN32` with `SetConsoleOutputCP(CP_UTF8)` so symbols render correctly on MinGW/Windows Terminal
-- ✅ **Pointer bug in `moveMesaMesa()`:** fixed the node traversal logic to correctly track the predecessor pointer before detaching the sequence
-- ✅ **Null check in `moveNaipeMesa()`:** added proper handling for the case where the destination pile is empty
+- **Unicode suit symbols:** added `naipeStr()` function returning proper UTF-8 strings (♥ ♦ ♣ ♠) instead of raw `char` values
+- **Windows UTF-8 support:** added `#ifdef _WIN32` with `SetConsoleOutputCP(CP_UTF8)` so symbols render correctly on MinGW/Windows Terminal
+- **Pointer bug in `moveMesaMesa()`:** fixed the node traversal logic to correctly track the predecessor pointer before detaching the sequence
+- **Null check in `moveNaipeMesa()`:** added proper handling for the case where the destination pile is empty
 
 ---
 
